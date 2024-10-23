@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!-- Basic -->
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <!-- Mobile Metas -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <!-- Site Metas -->
+  <meta name="keywords" content="" />
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+
+  <title>SignHope - Predictions</title>
+
+  <!-- slider stylesheet -->
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+  <!-- bootstrap core css -->
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+  <!-- font awesome style -->
+  <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css" />
+
+  <!-- Custom styles for this template -->
+  <link href="css/style.css" rel="stylesheet" />
+  <!-- responsive style -->
+  <link href="css/responsive.css" rel="stylesheet" />
+
+  <style>
+    html, body {
+      height: 100%;
+      margin: 0;
+      display: flex;
+      flex-direction: column;
+    }
+    .hero_area {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+    }
+    .content {
+      flex: 1;
+    }
+    .upload-container {
+      text-align: center;
+      padding: 40px 20px;
+      background-color: #f8f9fa;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      max-width: 600px;
+      margin: 40px auto;
+    }
+    .upload-container h1 {
+      margin-bottom: 20px;
+      font-size: 2em;
+      color: #7ca8de;
+    }
+    .upload-container p {
+      margin-bottom: 30px;
+      font-size: 1.2em;
+      color: #5c93bd;
+    }
+    .upload-container input {
+      margin: 10px 0;
+      padding: 10px;
+      font-size: 1em;
+    }
+    .upload-container button {
+      padding: 10px 20px;
+      font-size: 1em;
+      color: #fff;
+      background-color: #6994c2;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    .upload-container button:hover {
+      background-color: #0056b3;
+    }
+    .result {
+      margin-top: 20px;
+      font-size: 1.2em;
+      color: #5c8fb3;
+    }
+    .progress-bar {
+      width: 100%;
+      background-color: #f3f3f3;
+      margin-top: 20px;
+    }
+    .progress {
+      width: 0;
+      height: 10px;
+      background-color: #007bff;
+    }
+    .footer_section {
+      background: #519eeb;
+      color: #fff;
+      text-align: center;
+      padding: 20px 0;
+    }
+    .preview {
+      margin-top: 20px;
+      max-width: 100%;
+    }
+    .logo-container {
+      text-align: center;
+      margin: 20px 0;
+    }
+    .logo-container img {
+      max-width: 100%;
+      height: auto;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="hero_area">
+    <!-- header section starts -->
+    <header class="header_section">
+      <div class="header_top">
+        <div class="container-fluid">
+          <div class="contact_nav">
+            <a href="">
+              <i class="fa fa-phone" aria-hidden="true"></i>
+              <span></span>
+            </a>
+            <a href="">
+              <i class="fa fa-envelope" aria-hidden="true"></i>
+              <span></span>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="header_bottom">
+        <div class="container-fluid">
+          <nav class="navbar navbar-expand-lg custom_nav-container ">
+            <a class="navbar-brand" href="index.html">
+              <span>SignHope</span>
+            </a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class=""> </span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ">
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="pictionary.html"> Pictionary </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="Videos.html">Tutorials</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="about.html">About Us</a>
+                </li>
+                <li class="nav-item active">
+                  <a class="nav-link" href="prediction.html">Prediction <span class="sr-only">(current)</span></a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <!-- end header section -->
+
+
+
+      <div class="upload-container">
+        <h1>Predict Alphabets</h1>
+        <p>Upload an image or video for alphabet prediction</p>
+        <form id="uploadFormAlphabet" method="post" enctype="multipart/form-data">
+          <label for="fileInputAlphabet">Choose file:</label>
+          <input type="file" id="fileInputAlphabet" name="file" accept="image/*,video/*" required>
+          <button type="submit">Upload</button>
+        </form>
+        <div class="progress-bar" id="progressBarAlphabet"><div class="progress" id="progressAlphabet"></div></div>
+        <div class="preview" id="previewAlphabet"></div>
+        <div class="result" id="resultAlphabet"></div>
+      </div>
+
+      <div class="upload-container">
+        <h1>Predict Words</h1>
+        <p>Upload an image or video for word prediction</p>
+        <form id="uploadFormWord" method="post" enctype="multipart/form-data">
+          <label for="fileInputWord">Choose file:</label>
+          <input type="file" id="fileInputWord" name="file" accept="image/*,video/*" required>
+          <button type="submit">Upload</button>
+        </form>
+        <div class="progress-bar" id="progressBarWord"><div class="progress" id="progressWord"></div></div>
+        <div class="preview" id="previewWord"></div>
+        <div class="result" id="resultWord"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- footer section -->
+  <footer class="footer_section">
+    <div class="container">
+      <p>
+        &copy; <span id="displayDateYear"></span> SignHope Corp. All rights reserved 
+        <a href="https://html.design/"> </a>
+      </p>
+    </div>
+  </footer>
+  <!-- footer section -->
+
+  <script src="js/jquery-3.4.1.min.js"></script>
+  <script src="js/bootstrap.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+  <script src="js/custom.js"></script>
+  <script>
+    function showPreview(fileInput, previewElementId) {
+      const file = fileInput.files[0];
+      const previewElement = document.getElementById(previewElementId);
+      
+      if (file) {
+        const reader = new FileReader();
+        reader.onload = function(e) {
+          if (file.type.startsWith('video/')) {
+            previewElement.innerHTML = `<video controls class="preview"><source src="${e.target.result}" type="${file.type}"></video>`;
+          } else {
+            previewElement.innerHTML = `<img src="${e.target.result}" class="preview" alt="Preview">`;
+          }
+        };
+        reader.readAsDataURL(file);
+      } else {
+        previewElement.innerHTML = '';
+      }
+    }
+
+    function uploadFile(formId, fileInputId, progressBarId, previewElementId, resultDivId, endpoint) {
+      const form = document.getElementById(formId);
+      const fileInput = document.getElementById(fileInputId);
+      const progressBar = document.getElementById(progressBarId);
+      const progress = progressBar.querySelector('.progress');
+      const resultDiv = document.getElementById(resultDivId);
+      const file = fileInput.files[0];
+      
+      if (!file) {
+        resultDiv.innerHTML = 'Please select a file.';
+        return;
+      }
+
+      showPreview(fileInput, previewElementId);
+      
+      const formData = new FormData();
+      formData.append('file', file);
+
+      const xhr = new XMLHttpRequest();
+      xhr.open('POST', endpoint, true);
+
+      xhr.upload.onprogress = function(e) {
+        if (e.lengthComputable) {
+          const percentComplete = (e.loaded / e.total) * 100;
+          progress.style.width = percentComplete + '%';
+        }
+      };
+
+      xhr.onload = function() {
+        if (xhr.status === 200) {
+          const response = JSON.parse(xhr.responseText);
+          resultDiv.innerHTML = `<p>Prediction: ${response.prediction}</p>`;
+        } else {
+          resultDiv.innerHTML = 'Error in prediction: ' + xhr.responseText;
+        }
+      };
+
+      xhr.onerror = function() {
+        resultDiv.innerHTML = 'An error occurred during the upload.';
+      };
+
+      xhr.send(formData);
+    }
+
+    document.getElementById('uploadFormAlphabet').addEventListener('submit', function(event) {
+      event.preventDefault();
+      uploadFile('uploadFormAlphabet', 'fileInputAlphabet', 'progressBarAlphabet', 'previewAlphabet', 'resultAlphabet', 'http://10.4.19.228:8000/predict_image');
+    });
+
+    document.getElementById('uploadFormWord').addEventListener('submit', function(event) {
+      event.preventDefault();
+      uploadFile('uploadFormWord', 'fileInputWord', 'progressBarWord', 'previewWord', 'resultWord', 'http://10.4.19.228:8000/predict_video');
+    });
+
+    // Set the current year in the footer
+    document.getElementById('displayDateYear').textContent = new Date().getFullYear();
+  </script>
+</body>
+
+</html>

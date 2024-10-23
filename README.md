@@ -41,14 +41,14 @@ The model processes input frames and classifies them into the respective alphabe
 Here are some screenshots showcasing the Sign Hope application in action:
 
 <div style="display: flex; justify-content: space-between;">
-    <img src="Images/1.jpeg" alt="Web App - Alphabet Recognition" width="300"/>
-    <img src="Images/2.jpeg" alt="Mobile App - Camera Recognition" width="300"/>
-    <img src="Images/3.jpeg" alt="Pictionary Feature" width="300"/>
+    <img src="Images/1.jpeg" alt="Web App - Alphabet Recognition" width="150"/>
+    <img src="Images/2.jpeg" alt="Mobile App - Camera Recognition" width="150"/>
+    <img src="Images/3.jpeg" alt="Pictionary Feature" width="150"/>
 </div>
 
 <div style="display: flex; justify-content: space-between; margin-top: 10px;">
-    <img src="Images/4.jpeg" alt="Sign Bot Chatbot" width="300"/>
-    <img src="Images/5.jpeg" alt="Video Tutorials" width="300"/>
-    <img src="Images/6.jpeg" alt="Video Tutorials" width="300"/>
+    <img src="Images/4.jpeg" alt="Sign Bot Chatbot" width="150"/>
+    <img src="Images/5.jpeg" alt="Video Tutorials" width="150"/>
+    <img src="Images/6.jpeg" alt="Video Tutorials" width="150"/>
 </div>
 

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">dashboard_signhope</string>
+    <string name="logout">Logout</string>
+    <string name="are_you_sure_you_want_to_logout">Are you sure you want to logout?</string>
+    <string name="logout_1">Logout</string>
+    <string name="dashboard_1">Dashboard</string>
+    <string name="welcome_to_signhope_1">Welcome to SignHope!</string>
+</resources>
