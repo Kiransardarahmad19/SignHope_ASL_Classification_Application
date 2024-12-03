@@ -58,7 +58,6 @@ Here are some screenshots showcasing the Sign Hope application in action:
 
 Here’s a video showcasing the Sign Hope application in action:
 
-<div style="display: flex; justify-content: space-between;">
-    <img src="images/video.gif" alt="SignHope Demo" width="150" height="150"/>
-</div>
+![SignHope Demo](images/your-gif.gif)
+
 
