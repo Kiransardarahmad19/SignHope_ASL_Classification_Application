@@ -58,6 +58,6 @@ Here are some screenshots showcasing the Sign Hope application in action:
 
 Here’s a video showcasing the Sign Hope application in action:
 
-![SignHope Demo](images/video.gif)
+![SignHope Demo](video.gif)
 
 
