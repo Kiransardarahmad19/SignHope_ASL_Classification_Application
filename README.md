@@ -1,8 +1,22 @@
 # SignHope_ASL_Classification_Application
 
+
+## Background 
+The idea for SignHope ASL Classification Application originated from an experience I had while dining at a local restaurant, where I noticed a speech and hearing-impaired waiter communicating with customers using a set of printed cards with common phrases and questions. Although this method was functional, it seemed cumbersome and limited, highlighting how communication, a fundamental part of human interaction, can become an obstacle. Inspired by this, I saw an opportunity to use technology and AI to bridge the communication gap for speech and hearing-impaired individuals. This led to the development of SignHope, an application that uses machine learning to classify American Sign Language gestures, enabling seamless communication between those with hearing and speech impairments and others. This project is a technical challenge and a mission to empower individuals with disabilities, eliminate communication barriers, and foster inclusivity and understanding in everyday interactions. This project works on the following UN-SDGs
+
+<div style="display: flex; justify-content: space-between;">
+    <img src="Images/un1.png" alt="UN SDG" width="150"/>
+    <img src="Images/un2.png" alt="UN SDG" width="150"/>
+    <img src="Images/un3.JPG" alt="UN SDG" width="150"/>
+</div>
+
+
+## Application 
 Sign Hope is a sign language classification system that recognizes gestures for both alphabets and words in American Sign Language (ASL). This project was developed as a Final Year Project (FYP) and consists of a web app for basic sign language recognition and an advanced mobile app with multiple additional features.
 
-The machine learning model powering Sign Hope is capable of classifying 29 alphabet signs with an accuracy of 98%, and 20 word-level signs with 72% accuracy. The system includes various interactive features such as live camera recognition, video tutorials, and a chatbot for learning and communication assistance.
+The machine learning model powering Sign Hope can classify 29 alphabet signs with an accuracy of 98%, and 20 word-level signs with 72% accuracy. The system includes various interactive features such as live camera recognition, video tutorials, and a chatbot for learning and communication assistance.
+
+##Technology 
 
 ### Web Application:
 1. **Sign Language Recognition**: The web app enables users to recognize basic alphabet signs from the ASL alphabet.
