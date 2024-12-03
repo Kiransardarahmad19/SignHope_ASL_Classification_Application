@@ -7,7 +7,7 @@ The idea for SignHope ASL Classification Application originated from an experien
 <div style="display: flex; justify-content: space-between;">
     <img src="Images/un1.png" alt="UN SDG" width="150"/>
     <img src="Images/un2.png" alt="UN SDG" width="150"/>
-    <img src="Images/un3.JPG" alt="UN SDG" width="150"/>
+    <img src="Images/un3.jpg" alt="UN SDG" width="150"/>
 </div>
 
 
@@ -16,14 +16,26 @@ Sign Hope is a sign language classification system that recognizes gestures for 
 
 The machine learning model powering Sign Hope can classify 29 alphabet signs with an accuracy of 98%, and 20 word-level signs with 72% accuracy. The system includes various interactive features such as live camera recognition, video tutorials, and a chatbot for learning and communication assistance.
 
-##Technology 
+## Technology 
 
-### Web Application:
+1. Figma for UX/UI
+2. Firebase
+3. Google Authentication
+4. Android Studio ( Kotlin , Java and XML) for Mobile Application
+5. Web Application ( Html, CSS , JS )
+6. FastAPI Server 
+7. Python for Machine Learning models
+8. Kaggle for Dataset
+
+
+
+
+### Web Application Features:
 1. **Sign Language Recognition**: The web app enables users to recognize basic alphabet signs from the ASL alphabet.
 2. **User-friendly Interface**: Built using HTML and CSS with simple navigation.
 3. **Deployed on Netlify**: The web app is available for use online via Netlify.
 
-### Mobile Application:
+### Mobile Application Features:
 1. **Camera Recognition**: Real-time sign recognition using the device’s camera.
 2. **Pictionary**: Interactive game that helps users learn and practice ASL through images and signs.
 3. **Video Tutorials**: A series of instructional videos to help users learn ASL at their own pace.
