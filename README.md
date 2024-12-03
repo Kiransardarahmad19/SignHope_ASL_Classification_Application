@@ -59,9 +59,6 @@ Here are some screenshots showcasing the Sign Hope application in action:
 Here’s a video showcasing the Sign Hope application in action:
 
 <div style="display: flex; justify-content: space-between;">
-    <video width="150" height="150" controls>
-        <source src="images/video.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-    </video>
+    <img src="images/video.gif" alt="SignHope Demo" width="150" height="150"/>
 </div>
 
