@@ -52,3 +52,16 @@ Here are some screenshots showcasing the Sign Hope application in action:
     <img src="Images/6.jpeg" alt="Video Tutorials" width="150"/>
 </div>
 
+
+
+## Web Application
+
+Here’s a video showcasing the Sign Hope application in action:
+
+<div style="display: flex; justify-content: space-between;">
+    <video width="150" height="150" controls>
+        <source src="images/video.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+</div>
+
