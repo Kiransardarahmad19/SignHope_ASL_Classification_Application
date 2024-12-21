@@ -60,6 +60,17 @@ The classification model used for Sign Hope was trained using TensorFlow and Ker
    
 The model processes input frames and classifies them into the respective alphabet or word class. For video tutorials and pictionary, the model helps guide users in understanding and learning these signs.
 
+
+### My Contribution 
+
+1. Idea 
+2. Mobile App: Alphabet and word detection modules, chatbot, text-to-speech feature, dashboard
+3. Website: landing page, model integration , Picture dictionary 
+4. Backend: Server for Fast API for words and alphabet modules 
+5. Machine Learning Models: CNN, 2D CNN , 3D CNN, yolo v5
+6. Dataset: Contributed to synthesizing the dataset
+7. Other: Logo and theme designing, model architectures
+
 ---
 
 ## Project Screenshots
