@@ -28,6 +28,7 @@ The machine learning model powering Sign Hope can classify 29 alphabet signs wit
 ![SignHope ASL Website ](Images/7.png)
 
 # System Designing 
+The system was designed on Figma first. ( click on the Image to see full design). 
 [![SignHope Figma Prototype](Images/figma.png)](https://www.figma.com/design/eJvRlb1nvZ6vnO8qkVHUOE/SignHope?node-id=0-1&t=UFLASXXYxIiZgJkd-1)
 
 
